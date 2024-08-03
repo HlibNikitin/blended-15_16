@@ -3,7 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>MobileApp</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header>
@@ -123,56 +137,71 @@
       </section>
 
       <!-- Section Our Team -->
-      <section>
-        <h2>OUR TEAM</h2>
-        <p>
-          Our team is made up of talented and passionate individuals who are
-          committed to providing the best experience for our users. Each member
-          brings a unique set of skills and expertise to the table, allowing us
-          to work collaboratively and effectively to achieve our goals.
-        </p>
-        <ul>
-          <li>
-            <img
-              src="./images/david.png"
-              alt="David Patel"
-              width="264"
-              height="260"
-            />
-            <h3>David Patel</h3>
-            <p>Managing Director</p>
-          </li>
-          <li>
-            <img
-              src="./images/rachel.png"
-              alt="Rachel Kim"
-              width="264"
-              height="260"
-            />
-            <h3>Rachel Kim</h3>
-            <p>Lead Designer</p>
-          </li>
-          <li>
-            <img
-              src="./images/samantha.png"
-              alt="Samantha Chen"
-              width="264"
-              height="260"
-            />
-            <h3>Samantha Chen</h3>
-            <p>Lead Developer</p>
-          </li>
-          <li>
-            <img
-              src="./images/andrew.png"
-              alt="Andrew Nguyen"
-              width="264"
-              height="260"
-            />
-            <h3>Andrew Nguyen</h3>
-            <p>Sr. UI Designer</p>
-          </li>
-        </ul>
+      <section class="section-our-team">
+        <div class="container">
+          <h2 class="our-team-title">OUR TEAM</h2>
+          <p class="our-team-text">
+            Our team is made up of talented and passionate individuals who are
+            committed to providing the best experience for our users. Each
+            member brings a unique set of skills and expertise to the table,
+            allowing us to work collaboratively and effectively to achieve our
+            goals.
+          </p>
+          <ul class="team-list">
+            <li class="team-list-item">
+              <img
+                class="our-team-photo"
+                src="./images/david.png"
+                alt="David Patel"
+                width="264"
+                height="260"
+              />
+              <div class="team-container">
+                <h3 class="team-container-title">David Patel</h3>
+                <p class="team-container-text">Managing Director</p>
+              </div>
+            </li>
+            <li class="team-list-item">
+              <img
+                class="our-team-photo"
+                src="./images/rachel.png"
+                alt="Rachel Kim"
+                width="264"
+                height="260"
+              />
+              <div class="team-container">
+                <h3 class="team-container-title">Rachel Kim</h3>
+                <p class="team-container-text">Lead Designer</p>
+              </div>
+            </li>
+            <li class="team-list-item">
+              <img
+                class="our-team-photo"
+                src="./images/samantha.png"
+                alt="Samantha Chen"
+                width="264"
+                height="260"
+              />
+              <div class="team-container">
+                <h3 class="team-container-title">Samantha Chen</h3>
+                <p class="team-container-text">Lead Developer</p>
+              </div>
+            </li>
+            <li class="team-list-item">
+              <img
+                class="our-team-photo"
+                src="./images/andrew.png"
+                alt="Andrew Nguyen"
+                width="264"
+                height="260"
+              />
+              <div class="team-container">
+                <h3 class="team-container-title">Andrew Nguyen</h3>
+                <p class="team-container-text">Sr. UI Designer</p>
+              </div>
+            </li>
+          </ul>
+        </div>
       </section>
       <!--End of section Our Team -->
       <!-- What our costumer`s say -->
