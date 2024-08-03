@@ -1,0 +1,112 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  display: block;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  color: #000;
+}
+
+.container {
+  width: 1280px;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+
+/* Section Our Team */
+
+.section-our-team {
+  padding: 40px 0;
+}
+
+.our-team-title {
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.our-team-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  margin-bottom: 56px;
+}
+
+.team-list {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+  justify-content: center;
+}
+
+.team-list-item {
+  max-width: calc((100% - 96px) / 4);
+  border-radius: 15px;
+  background: linear-gradient(
+    318deg,
+    rgba(0, 197, 235, 0.5) 0%,
+    rgba(181, 68, 254, 0.5) 100%
+  );
+}
+
+.our-team-photo {
+  border-radius: 10px;
+}
+
+.team-container {
+  padding-top: 20px;
+  padding-bottom: 12px;
+}
+
+.team-container-title {
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 12px;
+}
+
+.team-container-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.71;
+  text-align: center;
+  color: #fff;
+}
