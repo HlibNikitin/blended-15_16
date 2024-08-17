@@ -153,3 +153,65 @@ body {
 .hero {
   display: flex;
 }
+
+
+/* #region Footer */
+
+.section-footer {
+  width: 1280px;
+  background-color: #06071b;
+  paddiing: 16px 0;
+  border-bottom: 1px solid #fff;
+ }
+ 
+ .footer-main-title {
+  font-weight: 700;
+  font-size: 24px;
+  color: #fff;
+  
+  text-align: center;
+  text-transform: capitalize;
+  padding-top: 80px;
+  margin-bottom: 80px;
+ }
+ .first-footer-container {
+ }
+ 
+ .footer-subtitle {
+   font-weight: 500;
+ font-size: 24px;
+ color: #fff;
+ }
+ 
+ .footer-text {
+   font-weight: 500;
+ font-size: 16px;
+ color: #fff;
+ }
+ .social-media-list {
+ }
+ .social-media-li-item {
+ }
+ .social-media-link {
+ }
+ .address { font-style: normal;
+ }
+ 
+ .contact-list-item {
+ }
+ .contact-link {
+   font-weight: 500;
+ font-size: 14px;
+ color: #fff;
+ }
+ .submit-footer-btn {
+   font-weight: 700;
+ font-size: 16px;
+ color: #fff;
+ border-radius: 5px;
+ width: 181px;
+ height: 42px;
+ background: linear-gradient(99deg, #00c5eb 0%, #b544fe 100%);
+ }
+ 
+ /* +endregion Footer */
