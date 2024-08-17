@@ -235,6 +235,7 @@
      <footer class="section-footer">
       <div class="container">
       <h2 class="footer-main-title">CONTACT US</h2>
+      <div class="footer-wrap">
       <div class="first-footer-container">
       <h3 class="footer-subtitle">Get in touch with us</h3>
       <p class="footer-text">
@@ -243,22 +244,54 @@
       </p>
       <ul class="social-media-list">
         <li class="social-media-li-item">
-          <a class="social-media-link" href="https://www.facebook.com/" img src="#" alt="Facebook"></a>
+          <a class="social-media-link" href="https://www.facebook.com/"> <svg class="social-icons" width="20" height="20" >
+            <use href="./images/icons.svg#icon-facebook" >
+
+            </use>
+          </svg> </a>
         </li>
-        <li><a class="social-media-link" href="https://x.com/" img src="#" alt="twitter"></a></li>
+        <li class="social-media-li-item" ><a class="social-media-link" href="https://x.com/">
+          <svg class="social-icons" width="20" height="20" >
+            <use href="./images/icons.svg#icon-twitter" >
+
+            </use>
+          </svg> 
+        </a></li>
         <li class="social-media-li-item">
-          <a class="social-media-link" href="https://www.linkedin.com/" img src="#" alt="linkedin"></a>
+          <a class="social-media-link" href="https://www.linkedin.com/">
+            <svg class="social-icons" width="20" height="20" >
+              <use href="./images/icons.svg#icon-cib_linkedin-in" >
+  
+              </use>
+            </svg> 
+          </a>
         </li>
       </ul>
-    </div>
       <address class="address">
         <ul contact-list>
           <li class="contact-list-item"><a class="contact-link" href="tel:+xxxxxxxxxxxx">+xx-xxxx-xxxx-xx</a></li>
           <li><a class="contact-link" href="mailto:goIteens@gmail.com">goIteens@gmail.com</a></li>
         </ul>
       </address>
-      <button type="button" class="submit-footer-btn">SUBMIT</button>
+    </div>
+    <div class="footer-form">
+      <form action="" class="customer-form">
+        <div class="form-wraper">
+          <label for="name" class="form-label" > <input id="name" class="form-input" type="text" placeholder="Name">
+          </label>
+          <label for="email" class="form-label" > <input id="email" class="form-input" type="email" placeholder="Email">
+          </label>
+        </div> 
+        <label for="comment" class="form-label" ><textarea class="form-comment" id="comment" placeholder="Massage" name="user-comment">
+
+        </textarea>
+      </label>
+        <button type="button"class="submit-footer-btn">SUBMIT</button>
+      </form>
+    
+    </div>
      </div>
+    </div>
     </footer>
     <!-- #endregion Footer -->
   </body>

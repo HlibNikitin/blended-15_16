@@ -158,9 +158,8 @@ body {
 /* #region Footer */
 
 .section-footer {
-  width: 1280px;
   background-color: #06071b;
-  paddiing: 16px 0;
+  padding: 16px 0;
   border-bottom: 1px solid #fff;
  }
  
@@ -168,7 +167,6 @@ body {
   font-weight: 700;
   font-size: 24px;
   color: #fff;
-  
   text-align: center;
   text-transform: capitalize;
   padding-top: 80px;
@@ -176,34 +174,91 @@ body {
  }
  .first-footer-container {
  }
- 
+ .footer-wrap {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  padding-bottom: 80px;
+}
+.footer-wrap ::after { content: "";
+  position: absolute;
+  border: 1px solid #fff;
+width: 1280px;
+height: 0px;
+bottom: 0;
+}
+.form-wraper {
+  display: flex;
+  gap: 32px;
+}
+
  .footer-subtitle {
    font-weight: 500;
  font-size: 24px;
  color: #fff;
+ margin-bottom: 20px;
  }
  
  .footer-text {
    font-weight: 500;
  font-size: 16px;
  color: #fff;
+ margin-bottom: 20px;
+ max-width: 500px;
  }
  .social-media-list {
+  display: flex;
+  gap: 14px;
+  margin-bottom: 20px;
  }
  .social-media-li-item {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+background: linear-gradient(99deg, #00c5eb 0%, #b544fe 100%);
  }
  .social-media-link {
+  width: 100%; 
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
  }
- .address { font-style: normal;
+
+ .social-icons {fill: #fff;
+}
+ .address { 
+  font-style: normal;
+  
  }
  
- .contact-list-item {
+ .contact-list-item:not(:last-child) {margin-bottom: 12px;
  }
  .contact-link {
    font-weight: 500;
  font-size: 14px;
  color: #fff;
  }
+ .form-input {border-radius: 5px;
+  width: 288px;
+  height: 40px;
+  background-color: #fff;
+  margin-bottom: 20px;
+  border: none;
+  padding: 12px 8px;
+}
+
+.form-comment {
+border-radius: 5px;
+width: 608px;
+height: 162px;
+resize: none;
+margin-bottom: 20px;
+padding: 12px 8px;
+border: none;
+outline: none;
+}
+
  .submit-footer-btn {
    font-weight: 700;
  font-size: 16px;
@@ -212,6 +267,8 @@ body {
  width: 181px;
  height: 42px;
  background: linear-gradient(99deg, #00c5eb 0%, #b544fe 100%);
+  display: block;
+  margin: 0 0 0 auto;
  }
  
  /* +endregion Footer */
