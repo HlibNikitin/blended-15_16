@@ -1,259 +1,348 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MobileApp</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
-      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./css/styles.css" />
-  </head>
-  <body>
-    <header>
-      <nav>
-        <a href="">MobileApp </a>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Features</a></li>
-          <li><a href="#">Team</a></li>
-          <li><a href="#">Testimonials</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <!-- #region Hero -->
-      <section class="section-hero">
-        <div class="container hero">
-          <div class="hero-desc">
-            <h1 class="hero-title">Introducing Mobileapp</h1>
-            <p class="hero-text">Download our mobile app today!</p>
-            <ul class="hero-list">
-              <li class="hero-list-item">
-                Real-time updates and notifications for timely information
-              </li>
-              <li class="hero-list-item">
-                Robust analytics and reporting for data-driven insights
-              </li>
-              <li class="hero-list-item">
-                Offline capabilities for uninterrupted use
-              </li>
-            </ul>
-            <button type="button" class="hero-button">Download</button>
-          </div>
-          <img
-            src="./images/mobile.png"
-            alt="Mobile"
-            width="895.13"
-            height="553.46"
-            class="hero-photo"
-          />
-        </div>
-      </section>
-      <!-- #endregion Hero -->
-      <section>
-        <h2>KEY FEATURES</h2>
-        <p>
-          Get the best mobile experience with our Mobileapp. With a
-          user-friendly interface, personalized recommendations, secure
-          transactions, and real-time updates, our app offers everything you
-          need to stay connected and productive
-        </p>
-        <ul>
-          <li>
-            <h3>User-Friendly Interface</h3>
-            <p>
-              Intuitive and easy-to-navigate interface designed to provide a
-              seamless mobile experience for users.
-            </p>
-          </li>
-          <li>
-            <h3>Personalized Recommendations</h3>
-            <p>
-              The app provides personalized recommendations based on user
-              preferences and behavior, allowing for more relevant content and a
-              more engaging experience
-            </p>
-          </li>
-          <li>
-            <h3>Real-Time Updates</h3>
-            <p>
-              Users receive real-time updates and notifications to stay informed
-              on important news and events, and to stay up-to-date with changes
-              to the app.
-            </p>
-          </li>
-        </ul>
-        <img
-          src="./images/key.png"
-          alt="Key Features"
-          width="396"
-          height="601"
-        />
-        <ul>
-          <li>
-            <h3>Integration with Other Apps:</h3>
-            <p>
-              The app integrates with other popular apps, making it easy for
-              users to connect with their social media accounts, or to easily
-              make in-app purchases using their preferred payment method.
-            </p>
-          </li>
-          <li>
-            <h3>Multi-Language Support:</h3>
-            <p>
-              The app is designed to be accessible to users all around the
-              world, with support for multiple languages, making it easier for
-              people to use the app in their native language.
-            </p>
-          </li>
-          <li>
-            <h3>Offline Capabilities:</h3>
-            <p>
-              The app offers offline capabilities, allowing users to access
-              certain features and content even when they are not connected to
-              the internet.
-            </p>
-          </li>
-        </ul>
-      </section>
-      <section>
-        <h2>WATCH THE VIDEO</h2>
-        <p>
-          Watch the video below to see our mobile app in action. With a
-          user-friendly interface, personalized recommendations, secure
-          transactions, and real-time updates, our app is available for download
-          on both Apple and Android devices and is designed to make your life
-          easier.
-        </p>
-        <a href=""></a>
-        <a href=""></a>
-        <img
-          src="./images/video.png"
-          alt="watch the video"
-          width="501"
-          height="282"
-        />
-      </section>
 
-      <!-- Section Our Team -->
-      <section class="section-our-team">
-        <div class="container">
-          <h2 class="our-team-title">OUR TEAM</h2>
-          <p class="our-team-text">
-            Our team is made up of talented and passionate individuals who are
-            committed to providing the best experience for our users. Each
-            member brings a unique set of skills and expertise to the table,
-            allowing us to work collaboratively and effectively to achieve our
-            goals.
-          </p>
-          <ul class="team-list">
-            <li class="team-list-item">
-              <img
-                class="our-team-photo"
-                src="./images/david.png"
-                alt="David Patel"
-                width="264"
-                height="260"
-              />
-              <div class="team-container">
-                <h3 class="team-container-title">David Patel</h3>
-                <p class="team-container-text">Managing Director</p>
-              </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MobileApp</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a href="">MobileApp </a>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Team</a></li>
+        <li><a href="#">Testimonials</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <!-- #region Hero -->
+    <section class="section-hero">
+      <div class="container hero">
+        <div class="hero-desc">
+          <h1 class="hero-title">Introducing Mobileapp</h1>
+          <p class="hero-text">Download our mobile app today!</p>
+          <ul class="hero-list">
+            <li class="hero-list-item">
+              Real-time updates and notifications for timely information
             </li>
-            <li class="team-list-item">
-              <img
-                class="our-team-photo"
-                src="./images/rachel.png"
-                alt="Rachel Kim"
-                width="264"
-                height="260"
-              />
-              <div class="team-container">
-                <h3 class="team-container-title">Rachel Kim</h3>
-                <p class="team-container-text">Lead Designer</p>
-              </div>
+            <li class="hero-list-item">
+              Robust analytics and reporting for data-driven insights
             </li>
-            <li class="team-list-item">
-              <img
-                class="our-team-photo"
-                src="./images/samantha.png"
-                alt="Samantha Chen"
-                width="264"
-                height="260"
-              />
-              <div class="team-container">
-                <h3 class="team-container-title">Samantha Chen</h3>
-                <p class="team-container-text">Lead Developer</p>
-              </div>
-            </li>
-            <li class="team-list-item">
-              <img
-                class="our-team-photo"
-                src="./images/andrew.png"
-                alt="Andrew Nguyen"
-                width="264"
-                height="260"
-              />
-              <div class="team-container">
-                <h3 class="team-container-title">Andrew Nguyen</h3>
-                <p class="team-container-text">Sr. UI Designer</p>
-              </div>
+            <li class="hero-list-item">
+              Offline capabilities for uninterrupted use
             </li>
           </ul>
+          <button type="button" class="hero-button">Download</button>
         </div>
-      </section>
-      <!--End of section Our Team -->
-      <!-- What our costumer`s say -->
-      <section>
-        <h2>WHAT OUR COSTUMER'S SAY</h2>
-        <img src="./images/jon.png" alt="Jon Doe" width="181" />
-        <h3>Jon Doe</h3>
-        <h4>Company Inc.</h4>
-        <p>
-          I've been using this app for a few weeks now and I have to say, I'm
-          really impressed. It's so easy to use and the personalized
-          recommendations are spot-on. Plus, the transactions are secure and the
-          updates are always timely. I would definitely recommend this app to
-          anyone looking for a better mobile experience
-        </p>
-      </section>
-      <!-- End os section What our costumer`s say -->
-    </main>
-    <footer>
-      <h2>CONTACT US</h2>
-      <h3>Get in touch with us</h3>
+        <img src="./images/mobile.png" alt="Mobile" width="895.13" height="553.46" class="hero-photo" />
+      </div>
+    </section>
+    <!-- #endregion Hero -->
+    <section>
+      <h2>KEY FEATURES</h2>
       <p>
-        Have a question or comment about our app? Get in touch with us using the
-        contact form below and our team will respond shortly.
+        Get the best mobile experience with our Mobileapp. With a
+        user-friendly interface, personalized recommendations, secure
+        transactions, and real-time updates, our app offers everything you
+        need to stay connected and productive
       </p>
       <ul>
         <li>
-          <a href="https://www.facebook.com/" img src="#" alt="Facebook"></a>
+          <h3>User-Friendly Interface</h3>
+          <p>
+            Intuitive and easy-to-navigate interface designed to provide a
+            seamless mobile experience for users.
+          </p>
         </li>
-        <li><a href="https://x.com/" img src="#" alt="twitter"></a></li>
         <li>
-          <a href="https://www.linkedin.com/" img src="#" alt="linkedin"></a>
+          <h3>Personalized Recommendations</h3>
+          <p>
+            The app provides personalized recommendations based on user
+            preferences and behavior, allowing for more relevant content and a
+            more engaging experience
+          </p>
+        </li>
+        <li>
+          <h3>Real-Time Updates</h3>
+          <p>
+            Users receive real-time updates and notifications to stay informed
+            on important news and events, and to stay up-to-date with changes
+            to the app.
+          </p>
         </li>
       </ul>
-      <address>
-        <ul>
-          <li><a href="tel:+xxxxxxxxxxxx">+xx-xxxx-xxxx-xx</a></li>
-          <li><a href="mailto:goIteens@gmail.com">goIteens@gmail.com</a></li>
+      <img src="./images/key.png" alt="Key Features" width="396" height="601" />
+      <ul>
+        <li>
+          <h3>Integration with Other Apps:</h3>
+          <p>
+            The app integrates with other popular apps, making it easy for
+            users to connect with their social media accounts, or to easily
+            make in-app purchases using their preferred payment method.
+          </p>
+        </li>
+        <li>
+          <h3>Multi-Language Support:</h3>
+          <p>
+            The app is designed to be accessible to users all around the
+            world, with support for multiple languages, making it easier for
+            people to use the app in their native language.
+          </p>
+        </li>
+        <li>
+          <h3>Offline Capabilities:</h3>
+          <p>
+            The app offers offline capabilities, allowing users to access
+            certain features and content even when they are not connected to
+            the internet.
+          </p>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <h2>WATCH THE VIDEO</h2>
+      <p>
+        Watch the video below to see our mobile app in action. With a
+        user-friendly interface, personalized recommendations, secure
+        transactions, and real-time updates, our app is available for download
+        on both Apple and Android devices and is designed to make your life
+        easier.
+      </p>
+      <a href=""></a>
+      <a href=""></a>
+      <img src="./images/video.png" alt="watch the video" width="501" height="282" />
+    </section>
+
+    <!-- Section Our Team -->
+    <section class="section-our-team">
+      <div class="container">
+        <h2 class="our-team-title">OUR TEAM</h2>
+        <p class="our-team-text">
+          Our team is made up of talented and passionate individuals who are
+          committed to providing the best experience for our users. Each
+          member brings a unique set of skills and expertise to the table,
+          allowing us to work collaboratively and effectively to achieve our
+          goals.
+        </p>
+        <ul class="team-list">
+          <li class="team-list-item">
+            <img class="our-team-photo" src="./images/david.png" alt="David Patel" width="264" height="260" />
+            <div class="team-container">
+              <h3 class="team-container-title">David Patel</h3>
+              <p class="team-container-text">Managing Director</p>
+            </div>
+          </li>
+          <li class="team-list-item">
+            <img class="our-team-photo" src="./images/rachel.png" alt="Rachel Kim" width="264" height="260" />
+            <div class="team-container">
+              <h3 class="team-container-title">Rachel Kim</h3>
+              <p class="team-container-text">Lead Designer</p>
+            </div>
+          </li>
+          <li class="team-list-item">
+            <img class="our-team-photo" src="./images/samantha.png" alt="Samantha Chen" width="264" height="260" />
+            <div class="team-container">
+              <h3 class="team-container-title">Samantha Chen</h3>
+              <p class="team-container-text">Lead Developer</p>
+            </div>
+          </li>
+          <li class="team-list-item">
+            <img class="our-team-photo" src="./images/andrew.png" alt="Andrew Nguyen" width="264" height="260" />
+            <div class="team-container">
+              <h3 class="team-container-title">Andrew Nguyen</h3>
+              <p class="team-container-text">Sr. UI Designer</p>
+            </div>
+          </li>
         </ul>
-      </address>
-      <button type="button">SUBMIT</button>
-    </footer>
-  </body>
-</html>
+      </div>
+    </section>
+    <!--End of section Our Team -->
+    <!-- What our costumer`s say -->
+    <section>
+      <h2>WHAT OUR COSTUMER'S SAY</h2>
+      <img src="./images/jon.png" alt="Jon Doe" width="181" />
+      <h3>Jon Doe</h3>
+      <h4>Company Inc.</h4>
+      <p>
+        I've been using this app for a few weeks now and I have to say, I'm
+        really impressed. It's so easy to use and the personalized
+        recommendations are spot-on. Plus, the transactions are secure and the
+        updates are always timely. I would definitely recommend this app to
+        anyone looking for a better mobile experience
+      </p>
+    </section>
+    <!-- End os section What our costumer`s say -->
+  </main>
+  <footer>
+    <h2>CONTACT US</h2>
+    <h3>Get in touch with us</h3>
+    <p>
+      Have a question or comment about our app? Get in touch with us using the
+      contact form below and our team will respond shortly.
+    </p>
+    <ul>
+      <li>
+        <a href="https://www.facebook.com/" img src="#" alt="Facebook"></a>
+      </li>
+      <li><a href="https://x.com/" img src="#" alt="twitter"></a></li>
+      <li>
+        <a href="https://www.linkedin.com/" img src="#" alt="linkedin"></a>
+      </li>
+    </ul>
+    <address>
+      <ul>
+        <li><a href="tel:+xxxxxxxxxxxx">+xx-xxxx-xxxx-xx</a></li>
+        <li><a href="mailto:goIteens@gmail.com">goIteens@gmail.com</a></li>
+      </ul>
+    </address>
+    <button type="button">SUBMIT</button>
+  </footer>
+
+  <!-- Section Modal -->
+  <div class="modal-window">
+    <h2 class="modal-title">Download</h2>
+
+    <div class="app-packages">
+      <div class="pckg-container">
+        <div class="pckg-icon">
+          <svg width="80" height="106">
+            <use href="./images/symbol-defs.svg#icon-file-download"></use>
+          </svg>
+        </div>
+        <h3 class="pckg-name">Download free plan</h3>
+        <ul class="feature-list">
+          <li class="feature-item">
+            <svg width="14" height="14">
+              <use href="./images/symbol-defs.svg#icon-bxs_right-arrow"></use>
+            </svg>
+            <p>Basic functionality</p>
+          </li>
+          <li class="feature-item">
+            <svg width="14" height="14">
+              <use href="./images/symbol-defs.svg#icon-bxs_right-arrow"></use>
+            </svg>
+            <p>Limited access</p>
+          </li>
+          <li class="feature-item">
+            <svg width="14" height="14">
+              <use href="./images/symbol-defs.svg#icon-bxs_right-arrow"></use>
+            </svg>
+            <p>Community support</p>
+          </li>
+        </ul>
+      </div>
+      <div class="pckg-container">
+        <div class="pckg-icon">
+          <svg width="80" height="106">
+            <use href="./images/symbol-defs.svg#icon-file-download"></use>
+          </svg>
+        </div>
+        <h3 class="pckg-name">Download for 20$</h3>
+        <ul class="feature-list">
+          <li class="feature-item">
+            <svg width="14" height="14">
+              <use href="./images/symbol-defs.svg#icon-bxs_right-arrow"></use>
+            </svg>
+            <p>Ad-free experience</p>
+          </li>
+          <li class="feature-item">
+            <svg width="14" height="14">
+              <use href="./images/symbol-defs.svg#icon-bxs_right-arrow"></use>
+            </svg>
+            <p>Unlock exclusive features</p>
+          </li>
+          <li class="feature-item">
+            <svg width="14" height="14">
+              <use href="./images/symbol-defs.svg#icon-bxs_right-arrow"></use>
+            </svg>
+            <p>Content for the ultimate mobile experience</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <p class="pckg-description">
+      Nunc vulputate nibh sed congue facilisis.
+      Curabitur posuere scelerisque neque. In sit amet lectus non lacus
+    </p>
+
+    <div class="set-information">
+      <ul class="set-inf-menu">
+        <li class="set-inf-list">
+          <svg width="28" height="28">
+            <use href="./images/symbol-defs.svg#icon-user-avatar-filled"></use>
+          </svg>
+          <h4 class="set-inf-name">App name</h4>
+          <p class="set-inf-text">Mobileapp.layout</p>
+        </li>
+        <li class="set-inf-list">
+          <svg width="28" height="28">
+            <use href="./images/symbol-defs.svg#icon-file-earmark-zip-fill"></use>
+          </svg>
+          <h4 class="set-inf-name">License</h4>
+          <p class="set-inf-text">Free</p>
+        </li>
+        <li class="set-inf-list">
+          <svg width="28" height="28">
+            <use href="./images/symbol-defs.svg#icon-user-avatar-filled"></use>
+          </svg>
+          <h4 class="set-inf-name">Author</h4>
+          <p class="set-inf-text">Mobile Marrket App.com</p>
+        </li>
+        <li class="set-inf-list">
+          <svg width="28" height="28">
+            <use href="./images/symbol-defs.svg#icon-bxs_calendar"></use>
+          </svg>
+          <h4 class="set-inf-name">Data</h4>
+          <p class="set-inf-text">21.02.2022</p>
+        </li>
+      </ul>
+      <ul class="set-inf-menu">
+        <li class="set-inf-list">
+          <svg width="28" height="28">
+            <use href="./images/symbol-defs.svg#icon-system-ok"></use>
+          </svg>
+          <h4 class="set-inf-name">OC</h4>
+          <p class="set-inf-text">Windows</p>
+        </li>
+        <li class="set-inf-list">
+          <svg width="28" height="28">
+            <use href="./images/symbol-defs.svg#icon-symbols_language"></use>
+          </svg>
+          <h4 class="set-inf-name">Language</h4>
+          <p class="set-inf-text">English</p>
+        </li>
+        <li class="set-inf-list">
+          <svg width="28" height="28">
+            <use href="./images/symbol-defs.svg#icon-healthicons_weight"></use>
+          </svg>
+          <h4 class="set-inf-name">Size</h4>
+          <p class="set-inf-text">4.16 MB</p>
+        </li>
+        <li class="set-inf-list">
+          <svg width="28" height="28">
+            <use href="./images/symbol-defs.svg#icon-fa-solid_download"></use>
+          </svg>
+          <h4 class="set-inf-name">Downloads</h4>
+          <p class="set-inf-text">964</p>
+        </li>
+      </ul>
+    </div>
+    <button class="download-btn">Download</button>
+  </div>
+</body>

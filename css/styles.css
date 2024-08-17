@@ -153,3 +153,88 @@ body {
 .hero {
   display: flex;
 }
+
+/* #region Modal*/
+.modal-window {
+  max-width: 568px;
+  max-height: 936px;
+}
+.modal-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.17;
+  /* color: #fff; */
+}
+
+.app-packages {
+  display: flex;
+}
+.pckg-container {
+}
+
+.pckg-icon {
+}
+
+.pckg-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  /* color: #fff; */
+  margin-bottom: 20px;
+}
+.feature-list {
+}
+
+.feature-item {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  /* color: #fff; */
+}
+
+.feature-item:not(:last-child) {
+  margin-bottom: 14px;
+}
+.pckg-description {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  /* color: #fff; */
+}
+.set-information {
+  display: flex;
+}
+.set-inf-menu {
+}
+.set-inf-list {
+  font-weight: 400;
+  font-size: 12px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.set-inf-name {
+  /* color: #fff; */
+  margin-bottom: 4px;
+}
+.set-inf-text {
+  color: #1ab9fd;
+}
+.download-btn {
+  display: block;
+  min-width: 200px;
+  height: 42px;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+  padding: 12px 60px;
+  background: linear-gradient(99deg, #00c5eb 0%, #b544fe 100%);
+}
+
+.download-btn:hover {
+  background: #06071b;
+}
+/* #endregion Modal*/
