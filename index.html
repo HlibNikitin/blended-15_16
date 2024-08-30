@@ -189,31 +189,70 @@
     </section>
     <!-- End os section What our costumer`s say -->
   </main>
-  <footer>
-    <h2>CONTACT US</h2>
-    <h3>Get in touch with us</h3>
-    <p>
-      Have a question or comment about our app? Get in touch with us using the
-      contact form below and our team will respond shortly.
-    </p>
-    <ul>
-      <li>
-        <a href="https://www.facebook.com/" img src="#" alt="Facebook"></a>
-      </li>
-      <li><a href="https://x.com/" img src="#" alt="twitter"></a></li>
-      <li>
-        <a href="https://www.linkedin.com/" img src="#" alt="linkedin"></a>
-      </li>
-    </ul>
-    <address>
-      <ul>
-        <li><a href="tel:+xxxxxxxxxxxx">+xx-xxxx-xxxx-xx</a></li>
-        <li><a href="mailto:goIteens@gmail.com">goIteens@gmail.com</a></li>
-      </ul>
-    </address>
-    <button type="button">SUBMIT</button>
-  </footer>
+   <!-- #Region Footer -->
+     <footer class="section-footer">
+      <div class="container">
+      <h2 class="footer-main-title">CONTACT US</h2>
+      <div class="footer-wrap">
+      <div class="first-footer-container">
+      <h3 class="footer-subtitle">Get in touch with us</h3>
+      <p class="footer-text">
+        Have a question or comment about our app? Get in touch with us using the
+        contact form below and our team will respond shortly.
+      </p>
+      <ul class="social-media-list">
+        <li class="social-media-li-item">
+          <a class="social-media-link" href="https://www.facebook.com/"> <svg class="social-icons" width="20" height="20" >
+            <use href="./images/icons.svg#icon-facebook" >
 
+            </use>
+          </svg> </a>
+        </li>
+        <li class="social-media-li-item" ><a class="social-media-link" href="https://x.com/">
+          <svg class="social-icons" width="20" height="20" >
+            <use href="./images/icons.svg#icon-twitter" >
+
+            </use>
+          </svg> 
+        </a></li>
+        <li class="social-media-li-item">
+          <a class="social-media-link" href="https://www.linkedin.com/">
+            <svg class="social-icons" width="20" height="20" >
+              <use href="./images/icons.svg#icon-cib_linkedin-in" >
+  
+              </use>
+            </svg> 
+          </a>
+        </li>
+      </ul>
+      <address class="address">
+        <ul contact-list>
+          <li class="contact-list-item"><a class="contact-link" href="tel:+xxxxxxxxxxxx">+xx-xxxx-xxxx-xx</a></li>
+          <li><a class="contact-link" href="mailto:goIteens@gmail.com">goIteens@gmail.com</a></li>
+        </ul>
+      </address>
+    </div>
+    <div class="footer-form">
+      <form action="" class="customer-form">
+        <div class="form-wraper">
+          <label for="name" class="form-label" > <input id="name" class="form-input" type="text" placeholder="Name">
+          </label>
+          <label for="email" class="form-label" > <input id="email" class="form-input" type="email" placeholder="Email">
+          </label>
+        </div> 
+        <label for="comment" class="form-label" ><textarea class="form-comment" id="comment" placeholder="Massage" name="user-comment">
+
+        </textarea>
+      </label>
+        <button type="button"class="submit-footer-btn">SUBMIT</button>
+      </form>
+    
+    </div>
+     </div>
+    </div>
+    </footer>
+    <!-- #endregion Footer -->
+ 
   <!-- Section Modal -->
   <div class="modal-window">
     <h2 class="modal-title">Download</h2>
@@ -276,7 +315,92 @@
         </ul>
       </div>
     </div>
-
+    
+      <!-- Section Our Team -->
+      <section class="section-our-team">
+        <div class="container">
+          <h2 class="our-team-title">OUR TEAM</h2>
+          <p class="our-team-text">
+            Our team is made up of talented and passionate individuals who are
+            committed to providing the best experience for our users. Each
+            member brings a unique set of skills and expertise to the table,
+            allowing us to work collaboratively and effectively to achieve our
+            goals.
+          </p>
+          <ul class="team-list">
+            <li class="team-list-item">
+              <img
+                class="our-team-photo"
+                src="./images/david.png"
+                alt="David Patel"
+                width="264"
+                height="260"
+              />
+              <div class="team-container">
+                <h3 class="team-container-title">David Patel</h3>
+                <p class="team-container-text">Managing Director</p>
+              </div>
+            </li>
+            <li class="team-list-item">
+              <img
+                class="our-team-photo"
+                src="./images/rachel.png"
+                alt="Rachel Kim"
+                width="264"
+                height="260"
+              />
+              <div class="team-container">
+                <h3 class="team-container-title">Rachel Kim</h3>
+                <p class="team-container-text">Lead Designer</p>
+              </div>
+            </li>
+            <li class="team-list-item">
+              <img
+                class="our-team-photo"
+                src="./images/samantha.png"
+                alt="Samantha Chen"
+                width="264"
+                height="260"
+              />
+              <div class="team-container">
+                <h3 class="team-container-title">Samantha Chen</h3>
+                <p class="team-container-text">Lead Developer</p>
+              </div>
+            </li>
+            <li class="team-list-item">
+              <img
+                class="our-team-photo"
+                src="./images/andrew.png"
+                alt="Andrew Nguyen"
+                width="264"
+                height="260"
+              />
+              <div class="team-container">
+                <h3 class="team-container-title">Andrew Nguyen</h3>
+                <p class="team-container-text">Sr. UI Designer</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!--End of section Our Team -->
+      <!-- What our costumer`s say -->
+      <section>
+        <h2>WHAT OUR COSTUMER'S SAY</h2>
+        <img src="./images/jon.png" alt="Jon Doe" width="181" />
+        <h3>Jon Doe</h3>
+        <h4>Company Inc.</h4>
+        <p>
+          I've been using this app for a few weeks now and I have to say, I'm
+          really impressed. It's so easy to use and the personalized
+          recommendations are spot-on. Plus, the transactions are secure and the
+          updates are always timely. I would definitely recommend this app to
+          anyone looking for a better mobile experience
+        </p>
+      </section>
+      <!-- End os section What our costumer`s say -->
+    </main>
+   
     <p class="pckg-description">
       Nunc vulputate nibh sed congue facilisis.
       Curabitur posuere scelerisque neque. In sit amet lectus non lacus
