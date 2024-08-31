@@ -21,17 +21,34 @@
   </head>
 
   <body>
-    <header>
-      <nav>
-        <a href="">MobileApp </a>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Features</a></li>
-          <li><a href="#">Team</a></li>
-          <li><a href="#">Testimonials</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav>
+   <header class="header">
+      <div class="container container-burger">
+        <nav class="nav-menu">
+          <a class="nav-link" href="./index.html">MobileApp </a>
+          <ul class="nav-list">
+            <li class="nav-list-item">
+              <a class="nav-list-link" href="#">HOME</a>
+            </li>
+            <li class="nav-list-item">
+              <a class="nav-list-link" href="#">FEATURES</a>
+            </li>
+            <li class="nav-list-item">
+              <a class="nav-list-link" href="#">TEAM</a>
+            </li>
+            <li class="nav-list-item">
+              <a class="nav-list-link" href="#">TESTIMONIALS</a>
+            </li>
+            <li class="nav-list-item">
+              <a class="nav-list-link" href="#">CONTACT</a>
+            </li>
+          </ul>
+        </nav>
+        <button class="mobile-menu-btn" type="button">
+          <svg class="mb-menu-icon" width="24" height="14">
+            <use href="./images/icons.svg#solid-menu-icon"></use>
+          </svg>
+        </button>
+      </div>   
     </header>
     <main>
       <!-- #region Hero -->
@@ -79,6 +96,7 @@
               Intuitive and easy-to-navigate interface designed to provide a
               seamless mobile experience for users.
             </p>
+
           </li>
           <li>
             <h3>Personalized Recommendations</h3>
@@ -89,6 +107,18 @@
             </p>
           </li>
           <li>
+
+          </li>
+          <li>
+            <h3>Personalized Recommendations</h3>
+            <p>
+              The app provides personalized recommendations based on user
+              preferences and behavior, allowing for more relevant content and a
+              more engaging experience
+            </p>
+          </li>
+          <li>
+
             <h3>Real-Time Updates</h3>
             <p>
               Users receive real-time updates and notifications to stay informed
@@ -217,6 +247,23 @@
         </div>
       </section>
       <!--End of section Our Team -->
+
+      <!-- What our costumer`s say -->
+      <section>
+        <h2>WHAT OUR COSTUMER'S SAY</h2>
+        <img src="./images/jon.png" alt="Jon Doe" width="181" />
+        <h3>Jon Doe</h3>
+        <h4>Company Inc.</h4>
+        <p>
+          I've been using this app for a few weeks now and I have to say, I'm
+          really impressed. It's so easy to use and the personalized
+          recommendations are spot-on. Plus, the transactions are secure and the
+          updates are always timely. I would definitely recommend this app to
+          anyone looking for a better mobile experience
+        </p>
+      </section>
+      <!-- End os section What our costumer`s say -->
+
       <!-- #region What our costumer`s say -->
       <section class="section-costumers">
         <div class="container-costumers">
@@ -245,6 +292,7 @@
         </div>
       </section>
       <!-- #endregion What our costumer`s say -->
+
     </main>
     <!-- #Region Footer -->
     <footer class="section-footer">
